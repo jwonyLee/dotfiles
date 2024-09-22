@@ -1,4 +1,5 @@
 local mapKey = require("utils.keyMapper").mapKey
+local wiki_template = require('utils.template')
 
 -- Neotree toggle 
 mapKey('<leader>e', ':Neotree toggle<cr>')
@@ -18,3 +19,6 @@ mapKey('<leader>h', ':nohlsearch<CR>')
 -- indent 
 mapKey('<', '<gv', 'v')
 mapKey('>', '>gv', 'v')
+
+-- Insert Template
+mapKey('<leader>tt', function() wiki_template.insert_wiki_template() end)

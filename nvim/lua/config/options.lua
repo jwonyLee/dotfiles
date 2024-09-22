@@ -25,6 +25,5 @@ opt.cmdheight = 1
 opt.scrolloff = 10 
 opt.mouse:append("a") 
 
-
-
-
+-- clipboard
+vim.opt.clipboard:append("unnamedplus")

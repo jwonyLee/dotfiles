@@ -22,3 +22,6 @@ mapKey('>', '>gv', 'v')
 
 -- Insert Template
 mapKey('<leader>tt', function() wiki_template.insert_wiki_template() end)
+
+-- 터미널 모드에서 일반 모드로 전환
+mapKey("<Esc><Esc>", "<C-\\><C-n>", "t")

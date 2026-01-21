@@ -42,11 +42,36 @@ Claude Code 플러그인 및 설정 백업.
 - superpowers
 - session-wrap
 
-### 백업
+### 수동 백업
 
 ```bash
-~/.claude/../dotfiles/.claude/backup.sh
+~/dotfiles/.claude/backup.sh
 cd ~/dotfiles && git add .claude/ && git commit -m "update claude config" && git push
+```
+
+### 자동 백업 (launchd)
+
+매일 오전 9시 자동 백업. 컴퓨터가 꺼져있으면 켜질 때 실행.
+
+```bash
+# 설치
+cp ~/dotfiles/.claude/com.jwonylee.claude-backup.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.jwonylee.claude-backup.plist
+
+# 상태 확인
+launchctl list | grep claude
+
+# 수동 실행
+launchctl start com.jwonylee.claude-backup
+
+# 비활성화
+launchctl unload ~/Library/LaunchAgents/com.jwonylee.claude-backup.plist
+
+# 재활성화
+launchctl load ~/Library/LaunchAgents/com.jwonylee.claude-backup.plist
+
+# 로그 확인
+cat ~/dotfiles/.claude/.launchd.log
 ```
 
 ### 복원

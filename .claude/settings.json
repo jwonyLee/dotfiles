@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(tree:*)",
+      "Skill(*)",
+      "mcp__sequential-thinking__sequentialthinking",
+      "Search",
+      "Read"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash -c '\"/Users/admin/.bun/bin/bun\" \"$(ls -td ~/.claude/plugins/cache/claude-hud/claude-hud/*/ 2>/dev/null | head -1)src/index.ts\"'"
+  },
+  "enabledPlugins": {
+    "swift-lsp@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "oh-my-claude-sisyphus@oh-my-claude-sisyphus": true,
+    "clarify@corca-plugins": true,
+    "suggest-tidyings@corca-plugins": true,
+    "claude-hud@claude-hud": true,
+    "superpowers@superpowers-marketplace": true,
+    "context7@claude-plugins-official": true,
+    "session-wrap@team-attention-plugins": true
+  },
+  "language": "Korean"
+}

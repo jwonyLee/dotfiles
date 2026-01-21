@@ -1,0 +1,110 @@
+{
+  "version": 2,
+  "plugins": {
+    "swift-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/swift-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-09T06:40:01.231Z",
+        "lastUpdated": "2026-01-09T06:40:01.231Z"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-10T06:09:24.191Z",
+        "lastUpdated": "2026-01-10T06:09:24.191Z"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/code-review/96276205880a",
+        "version": "96276205880a",
+        "installedAt": "2026-01-10T06:10:33.907Z",
+        "lastUpdated": "2026-01-16T00:02:03.912Z"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/96276205880a",
+        "version": "96276205880a",
+        "installedAt": "2026-01-10T06:11:38.544Z",
+        "lastUpdated": "2026-01-16T00:02:03.916Z"
+      }
+    ],
+    "oh-my-claude-sisyphus@oh-my-claude-sisyphus": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/oh-my-claude-sisyphus/oh-my-claude-sisyphus/2.6.1",
+        "version": "2.6.1",
+        "installedAt": "2026-01-13T05:48:21.771Z",
+        "lastUpdated": "2026-01-20T00:34:42.464Z"
+      }
+    ],
+    "clarify@corca-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/corca-plugins/clarify/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-15T00:48:12.039Z",
+        "lastUpdated": "2026-01-15T00:48:12.039Z",
+        "gitCommitSha": "fc91f5c0f65b4b3fe265a3a1243f55daa5e0241a"
+      }
+    ],
+    "suggest-tidyings@corca-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/corca-plugins/suggest-tidyings/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-15T00:48:25.080Z",
+        "lastUpdated": "2026-01-15T00:48:25.080Z",
+        "gitCommitSha": "fc91f5c0f65b4b3fe265a3a1243f55daa5e0241a"
+      }
+    ],
+    "claude-hud@claude-hud": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-hud/claude-hud/0.0.6",
+        "version": "0.0.6",
+        "installedAt": "2026-01-16T00:01:47.417Z",
+        "lastUpdated": "2026-01-16T00:01:47.417Z",
+        "gitCommitSha": "901025c42c0cac967f10167a4ed01c515394bd51"
+      }
+    ],
+    "superpowers@superpowers-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/superpowers-marketplace/superpowers/4.0.3",
+        "version": "4.0.3",
+        "installedAt": "2026-01-19T00:06:20.899Z",
+        "lastUpdated": "2026-01-19T00:06:20.899Z",
+        "gitCommitSha": "a08f088968d0789a44a4f5f5f7d8d6bbe46a0b44"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/context7/96276205880a",
+        "version": "96276205880a",
+        "installedAt": "2026-01-19T06:51:05.630Z",
+        "lastUpdated": "2026-01-19T06:51:05.630Z",
+        "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
+      }
+    ],
+    "session-wrap@team-attention-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/team-attention-plugins/session-wrap/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-21T00:06:55.228Z",
+        "lastUpdated": "2026-01-21T00:06:55.228Z",
+        "gitCommitSha": "1cdccb668be833411a69843e006edf8aaa763394"
+      }
+    ]
+  }
+}

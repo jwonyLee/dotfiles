@@ -26,7 +26,8 @@
     "claude-hud@claude-hud": true,
     "superpowers@superpowers-marketplace": true,
     "context7@claude-plugins-official": true,
-    "session-wrap@team-attention-plugins": true
+    "session-wrap@team-attention-plugins": true,
+    "oh-my-claudecode@oh-my-claude-sisyphus": true
   },
   "language": "Korean"
 }

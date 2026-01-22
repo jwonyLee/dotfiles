@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-01-20T08:14:43.806Z"
+    "lastUpdated": "2026-01-21T06:33:37.067Z"
   },
   "oh-my-claude-sisyphus": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-01-21T00:04:49.730Z",
+    "lastUpdated": "2026-01-21T07:40:17.681Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -22,7 +22,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-01-20T08:07:20.188Z",
+    "lastUpdated": "2026-01-21T04:07:15.142Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -31,7 +31,7 @@
       "repo": "jarrodwatts/claude-hud"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-hud",
-    "lastUpdated": "2026-01-16T00:01:36.961Z",
+    "lastUpdated": "2026-01-21T04:29:03.484Z",
     "autoUpdate": true
   },
   "superpowers-marketplace": {
@@ -40,7 +40,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2026-01-19T00:06:00.177Z",
+    "lastUpdated": "2026-01-21T06:41:07.260Z",
     "autoUpdate": true
   },
   "team-attention-plugins": {
@@ -49,7 +49,7 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-01-21T00:05:56.942Z",
+    "lastUpdated": "2026-01-21T08:18:23.911Z",
     "autoUpdate": true
   }
 }

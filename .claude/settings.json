@@ -5,11 +5,16 @@
       "Bash(find:*)",
       "Bash(grep:*)",
       "Bash(tree:*)",
-      "Skill(*)",
+      "Bash(git log:*)",
+      "Bash(git diff:*)",
+      "Bash(xcodebuild:*)",
+      "Skill",
       "mcp__sequential-thinking__sequentialthinking",
       "Search",
-      "Read"
-    ]
+      "Read",
+      "Skill(superpowers:brainstorming)"
+    ],
+    "defaultMode": "plan"
   },
   "statusLine": {
     "type": "command",
@@ -19,7 +24,6 @@
     "swift-lsp@claude-plugins-official": true,
     "code-simplifier@claude-plugins-official": true,
     "code-review@claude-plugins-official": true,
-    "github@claude-plugins-official": true,
     "oh-my-claude-sisyphus@oh-my-claude-sisyphus": true,
     "clarify@corca-plugins": true,
     "suggest-tidyings@corca-plugins": true,
@@ -27,7 +31,9 @@
     "superpowers@superpowers-marketplace": true,
     "context7@claude-plugins-official": true,
     "session-wrap@team-attention-plugins": true,
-    "oh-my-claudecode@oh-my-claude-sisyphus": true
+    "oh-my-claudecode@oh-my-claude-sisyphus": true,
+    "github@claude-plugins-official": true,
+    "slack@claude-plugins-official": true
   },
   "language": "Korean"
 }

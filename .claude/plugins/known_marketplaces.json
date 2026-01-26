@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-01-23T08:29:20.115Z",
+    "lastUpdated": "2026-01-25T23:38:10.896Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -49,7 +49,16 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-01-23T06:29:43.034Z",
+    "lastUpdated": "2026-01-25T23:31:54.126Z",
+    "autoUpdate": true
+  },
+  "skill-up-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "BumgeunSong/skill-up"
+    },
+    "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
+    "lastUpdated": "2026-01-25T23:38:27.338Z",
     "autoUpdate": true
   }
 }

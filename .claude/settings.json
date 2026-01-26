@@ -33,7 +33,8 @@
     "session-wrap@team-attention-plugins": true,
     "oh-my-claudecode@oh-my-claude-sisyphus": true,
     "github@claude-plugins-official": true,
-    "slack@claude-plugins-official": true
+    "slack@claude-plugins-official": true,
+    "skill-up@skill-up-marketplace": true
   },
   "language": "Korean"
 }

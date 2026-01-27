@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-01-22T07:23:08.498Z"
+    "lastUpdated": "2026-01-26T07:04:18.796Z"
   },
   "oh-my-claude-sisyphus": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-01-25T23:38:10.896Z",
+    "lastUpdated": "2026-01-26T07:59:59.125Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -22,7 +22,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-01-23T08:07:31.800Z",
+    "lastUpdated": "2026-01-26T07:12:14.216Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -31,7 +31,7 @@
       "repo": "jarrodwatts/claude-hud"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-hud",
-    "lastUpdated": "2026-01-23T08:37:51.871Z",
+    "lastUpdated": "2026-01-26T07:59:54.997Z",
     "autoUpdate": true
   },
   "superpowers-marketplace": {
@@ -40,7 +40,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2026-01-23T06:24:27.256Z",
+    "lastUpdated": "2026-01-26T07:29:33.884Z",
     "autoUpdate": true
   },
   "team-attention-plugins": {
@@ -49,7 +49,7 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-01-25T23:31:54.126Z",
+    "lastUpdated": "2026-01-26T07:14:29.874Z",
     "autoUpdate": true
   },
   "skill-up-marketplace": {
@@ -58,7 +58,7 @@
       "repo": "BumgeunSong/skill-up"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
-    "lastUpdated": "2026-01-25T23:38:27.338Z",
+    "lastUpdated": "2026-01-26T06:58:40.610Z",
     "autoUpdate": true
   }
 }

@@ -136,6 +136,16 @@
         "lastUpdated": "2026-01-25T23:37:43.404Z",
         "gitCommitSha": "4eda38d381614fdb23d5a72bdb8d2f79e4643ba9"
       }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/superpowers/4.1.1",
+        "version": "4.1.1",
+        "installedAt": "2026-01-26T00:03:55.355Z",
+        "lastUpdated": "2026-01-26T00:03:55.355Z",
+        "gitCommitSha": "469a6d81ebb8b827e284d4afb090c6c622d97747"
+      }
     ]
   }
 }

@@ -9,10 +9,9 @@
       "Bash(git diff:*)",
       "Bash(xcodebuild:*)",
       "Skill",
-      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__*",
       "Search",
-      "Read",
-      "Skill(superpowers:brainstorming)"
+      "Read"
     ],
     "defaultMode": "plan"
   },
@@ -34,7 +33,8 @@
     "oh-my-claudecode@oh-my-claude-sisyphus": true,
     "github@claude-plugins-official": true,
     "slack@claude-plugins-official": true,
-    "skill-up@skill-up-marketplace": true
+    "skill-up@skill-up-marketplace": true,
+    "superpowers@claude-plugins-official": true
   },
   "language": "Korean"
 }

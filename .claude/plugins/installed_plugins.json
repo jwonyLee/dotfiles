@@ -22,10 +22,10 @@
     "code-review@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/code-review/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/code-review/27d2b86d72da",
+        "version": "27d2b86d72da",
         "installedAt": "2026-01-10T06:10:33.907Z",
-        "lastUpdated": "2026-01-21T06:33:38.179Z"
+        "lastUpdated": "2026-01-29T23:53:37.693Z"
       }
     ],
     "oh-my-claude-sisyphus@oh-my-claude-sisyphus": [
@@ -80,10 +80,10 @@
     "context7@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/context7/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/context7/27d2b86d72da",
+        "version": "27d2b86d72da",
         "installedAt": "2026-01-19T06:51:05.630Z",
-        "lastUpdated": "2026-01-21T06:33:38.190Z",
+        "lastUpdated": "2026-01-29T23:53:37.698Z",
         "gitCommitSha": "96276205880a60fd66bbae981f5ab568e70c4cbf"
       }
     ],
@@ -110,20 +110,20 @@
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/github/27d2b86d72da",
+        "version": "27d2b86d72da",
         "installedAt": "2026-01-22T05:30:28.876Z",
-        "lastUpdated": "2026-01-22T05:30:28.876Z",
+        "lastUpdated": "2026-01-29T23:53:37.703Z",
         "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
       }
     ],
     "slack@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/slack/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/slack/27d2b86d72da",
+        "version": "27d2b86d72da",
         "installedAt": "2026-01-22T07:18:49.285Z",
-        "lastUpdated": "2026-01-22T07:18:49.285Z",
+        "lastUpdated": "2026-01-29T23:53:37.708Z",
         "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
       }
     ],
@@ -150,10 +150,10 @@
     "ralph-loop@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/ralph-loop/e30768372b41",
-        "version": "e30768372b41",
+        "installPath": "/Users/admin/.claude/plugins/cache/claude-plugins-official/ralph-loop/27d2b86d72da",
+        "version": "27d2b86d72da",
         "installedAt": "2026-01-27T06:06:58.028Z",
-        "lastUpdated": "2026-01-27T06:06:58.028Z",
+        "lastUpdated": "2026-01-29T23:53:37.719Z",
         "gitCommitSha": "e30768372b4150ca1bc0839d93283e8edc30d60d"
       }
     ],

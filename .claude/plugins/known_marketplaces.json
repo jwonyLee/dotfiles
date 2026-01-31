@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-01-29T23:53:40.184Z",
+    "lastUpdated": "2026-01-30T06:24:15.099Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -22,7 +22,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-01-29T23:53:37.442Z",
+    "lastUpdated": "2026-01-30T04:12:52.866Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -40,7 +40,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2026-01-29T00:25:40.931Z",
+    "lastUpdated": "2026-01-30T01:30:36.082Z",
     "autoUpdate": true
   },
   "team-attention-plugins": {
@@ -49,7 +49,7 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-01-29T06:24:48.334Z",
+    "lastUpdated": "2026-01-30T06:24:11.764Z",
     "autoUpdate": true
   },
   "skill-up-marketplace": {
@@ -58,7 +58,7 @@
       "repo": "BumgeunSong/skill-up"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
-    "lastUpdated": "2026-01-29T06:51:32.983Z",
+    "lastUpdated": "2026-01-30T05:29:26.385Z",
     "autoUpdate": true
   },
   "anthropic-agent-skills": {
@@ -67,7 +67,16 @@
       "repo": "anthropics/skills"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/anthropic-agent-skills",
-    "lastUpdated": "2026-01-29T00:30:39.959Z",
+    "lastUpdated": "2026-01-30T04:18:13.417Z",
+    "autoUpdate": true
+  },
+  "swiftui-expert-skill": {
+    "source": {
+      "source": "github",
+      "repo": "AvdLee/SwiftUI-Agent-Skill"
+    },
+    "installLocation": "/Users/admin/.claude/plugins/marketplaces/swiftui-expert-skill",
+    "lastUpdated": "2026-01-30T04:05:16.346Z",
     "autoUpdate": true
   }
 }

@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-01-29T02:56:42.778Z"
+    "lastUpdated": "2026-02-01T23:01:59.487Z"
   },
   "oh-my-claude-sisyphus": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-01-30T06:24:15.099Z",
+    "lastUpdated": "2026-02-01T23:31:28.284Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -22,7 +22,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-01-30T04:12:52.866Z",
+    "lastUpdated": "2026-02-01T23:31:25.350Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -40,7 +40,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2026-01-30T01:30:36.082Z",
+    "lastUpdated": "2026-02-01T23:30:11.267Z",
     "autoUpdate": true
   },
   "team-attention-plugins": {
@@ -49,7 +49,7 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-01-30T06:24:11.764Z",
+    "lastUpdated": "2026-02-01T23:01:19.839Z",
     "autoUpdate": true
   },
   "skill-up-marketplace": {
@@ -58,7 +58,7 @@
       "repo": "BumgeunSong/skill-up"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
-    "lastUpdated": "2026-01-30T05:29:26.385Z",
+    "lastUpdated": "2026-02-01T23:22:42.415Z",
     "autoUpdate": true
   },
   "anthropic-agent-skills": {

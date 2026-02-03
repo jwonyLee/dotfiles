@@ -1,17 +1,4 @@
 {
-  "hooks": {
-    "UserPromptSubmit": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash ~/.claude/hooks/english-coach.sh",
-            "statusMessage": "English coaching..."
-          }
-        ]
-      }
-    ]
-  },
   "permissions": {
     "allow": [
       "Bash(ls:*)",
@@ -31,6 +18,19 @@
       "WebSearch"
     ],
     "defaultMode": "plan"
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ~/.claude/hooks/english-coach.sh",
+            "statusMessage": "English coaching..."
+          }
+        ]
+      }
+    ]
   },
   "statusLine": {
     "type": "command",
@@ -56,7 +56,8 @@
     "document-skills@anthropic-agent-skills": true,
     "example-skills@anthropic-agent-skills": true,
     "swiftui-expert@swiftui-expert-skill": true,
-    "playground@claude-plugins-official": true
+    "playground@claude-plugins-official": true,
+    "plannotator@plannotator": true
   },
   "language": "Korean"
 }

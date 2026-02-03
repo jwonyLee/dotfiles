@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-02-01T23:31:28.284Z",
+    "lastUpdated": "2026-02-02T00:59:15.277Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -58,7 +58,7 @@
       "repo": "BumgeunSong/skill-up"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
-    "lastUpdated": "2026-02-01T23:22:42.415Z",
+    "lastUpdated": "2026-02-02T00:59:11.819Z",
     "autoUpdate": true
   },
   "anthropic-agent-skills": {
@@ -78,5 +78,13 @@
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/swiftui-expert-skill",
     "lastUpdated": "2026-01-30T04:05:16.346Z",
     "autoUpdate": true
+  },
+  "plannotator": {
+    "source": {
+      "source": "github",
+      "repo": "backnotprop/plannotator"
+    },
+    "installLocation": "/Users/admin/.claude/plugins/marketplaces/plannotator",
+    "lastUpdated": "2026-02-02T00:59:54.309Z"
   }
 }

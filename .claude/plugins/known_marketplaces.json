@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-02-01T23:01:59.487Z"
+    "lastUpdated": "2026-02-03T23:24:07.345Z"
   },
   "oh-my-claude-sisyphus": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "Yeachan-Heo/oh-my-claude-sisyphus"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/oh-my-claude-sisyphus",
-    "lastUpdated": "2026-02-02T00:59:15.277Z",
+    "lastUpdated": "2026-02-03T23:24:10.177Z",
     "autoUpdate": true
   },
   "corca-plugins": {
@@ -22,7 +22,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-02-01T23:31:25.350Z",
+    "lastUpdated": "2026-02-03T07:18:04.553Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -31,7 +31,7 @@
       "repo": "jarrodwatts/claude-hud"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-hud",
-    "lastUpdated": "2026-01-29T00:25:38.785Z",
+    "lastUpdated": "2026-02-03T23:23:30.092Z",
     "autoUpdate": true
   },
   "superpowers-marketplace": {
@@ -40,7 +40,7 @@
       "repo": "obra/superpowers-marketplace"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/superpowers-marketplace",
-    "lastUpdated": "2026-02-01T23:30:11.267Z",
+    "lastUpdated": "2026-02-03T06:54:20.836Z",
     "autoUpdate": true
   },
   "team-attention-plugins": {
@@ -58,7 +58,7 @@
       "repo": "BumgeunSong/skill-up"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/skill-up-marketplace",
-    "lastUpdated": "2026-02-02T00:59:11.819Z",
+    "lastUpdated": "2026-02-03T06:03:49.882Z",
     "autoUpdate": true
   },
   "anthropic-agent-skills": {
@@ -67,7 +67,7 @@
       "repo": "anthropics/skills"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/anthropic-agent-skills",
-    "lastUpdated": "2026-01-30T04:18:13.417Z",
+    "lastUpdated": "2026-02-03T23:23:20.768Z",
     "autoUpdate": true
   },
   "swiftui-expert-skill": {
@@ -76,7 +76,7 @@
       "repo": "AvdLee/SwiftUI-Agent-Skill"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/swiftui-expert-skill",
-    "lastUpdated": "2026-01-30T04:05:16.346Z",
+    "lastUpdated": "2026-02-03T09:00:58.064Z",
     "autoUpdate": true
   },
   "plannotator": {

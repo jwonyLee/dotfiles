@@ -180,10 +180,10 @@
     "swiftui-expert@swiftui-expert-skill": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/swiftui-expert-skill/swiftui-expert/1.0.0",
-        "version": "1.0.0",
+        "installPath": "/Users/admin/.claude/plugins/cache/swiftui-expert-skill/swiftui-expert/1.1.1",
+        "version": "1.1.1",
         "installedAt": "2026-01-30T04:05:38.902Z",
-        "lastUpdated": "2026-01-30T04:05:38.902Z",
+        "lastUpdated": "2026-02-03T23:18:27.421Z",
         "gitCommitSha": "0e9a7718359760b619c7ca28d430510f43d88c7f"
       }
     ],

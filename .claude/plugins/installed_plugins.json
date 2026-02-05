@@ -28,15 +28,6 @@
         "lastUpdated": "2026-01-29T23:53:37.693Z"
       }
     ],
-    "oh-my-claude-sisyphus@oh-my-claude-sisyphus": [
-      {
-        "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/oh-my-claude-sisyphus/oh-my-claude-sisyphus/2.6.1",
-        "version": "2.6.1",
-        "installedAt": "2026-01-13T05:48:21.771Z",
-        "lastUpdated": "2026-01-20T00:34:42.464Z"
-      }
-    ],
     "clarify@corca-plugins": [
       {
         "scope": "user",
@@ -97,16 +88,6 @@
         "gitCommitSha": "1cdccb668be833411a69843e006edf8aaa763394"
       }
     ],
-    "oh-my-claudecode@oh-my-claude-sisyphus": [
-      {
-        "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/oh-my-claude-sisyphus/oh-my-claudecode/3.5.8",
-        "version": "3.5.8",
-        "installedAt": "2026-01-21T04:07:48.232Z",
-        "lastUpdated": "2026-01-25T23:24:50.324Z",
-        "gitCommitSha": "e7c9c6f3a79118e106b8e40778d7e8490b12389e"
-      }
-    ],
     "github@claude-plugins-official": [
       {
         "scope": "user",
@@ -160,20 +141,20 @@
     "document-skills@anthropic-agent-skills": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/anthropic-agent-skills/document-skills/69c0b1a06741",
-        "version": "69c0b1a06741",
+        "installPath": "/Users/admin/.claude/plugins/cache/anthropic-agent-skills/document-skills/a5bcdd7e58cd",
+        "version": "a5bcdd7e58cd",
         "installedAt": "2026-01-27T06:09:24.158Z",
-        "lastUpdated": "2026-01-27T06:09:24.158Z",
+        "lastUpdated": "2026-02-04T03:07:37.399Z",
         "gitCommitSha": "69c0b1a0674149f27b61b2635f935524b6add202"
       }
     ],
     "example-skills@anthropic-agent-skills": [
       {
         "scope": "user",
-        "installPath": "/Users/admin/.claude/plugins/cache/anthropic-agent-skills/example-skills/69c0b1a06741",
-        "version": "69c0b1a06741",
+        "installPath": "/Users/admin/.claude/plugins/cache/anthropic-agent-skills/example-skills/a5bcdd7e58cd",
+        "version": "a5bcdd7e58cd",
         "installedAt": "2026-01-27T06:09:33.891Z",
-        "lastUpdated": "2026-01-27T06:09:33.891Z",
+        "lastUpdated": "2026-02-04T03:07:37.401Z",
         "gitCommitSha": "69c0b1a0674149f27b61b2635f935524b6add202"
       }
     ],

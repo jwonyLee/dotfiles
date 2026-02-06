@@ -1,0 +1,15 @@
+tap "steipete/tap"
+
+brew "mockolo"
+brew "xcsift"
+
+cask "alt-tab"
+cask "bitwarden"
+cask "discord"
+cask "font-jetbrains-mono"
+cask "fork"
+cask "google-chrome"
+cask "iterm2"
+cask "obsidian"
+cask "visual-studio-code"
+cask "xcodes"

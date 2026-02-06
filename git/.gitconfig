@@ -1,0 +1,7 @@
+[user]
+	name = JiWon Lee
+	email = rieul@rieul.tech
+[core]
+	hooksPath = ~/.githooks
+[push]
+	autoSetupRemote = true

@@ -1,0 +1,33 @@
+#!/bin/bash
+COMMIT_MSG_FILE=$1
+# 현재 브랜치 이름 가져오기
+BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+# fc/ 또는 rieul/ 브랜치가 아니면 스킵
+if [[ ! "$BRANCH_NAME" =~ ^(fc|rieul)/ ]]; then
+  exit 0
+fi
+# 브랜치 이름에서 Jira 티켓 추출
+JIRA_TICKET=$(echo "$BRANCH_NAME" | grep -oE '[A-Z]+-[0-9]+')
+# 티켓 번호 없으면 스킵
+if [[ -z "$JIRA_TICKET" ]]; then
+  exit 0
+fi
+# 현재 커밋 메시지 읽기
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+# 이미 커밋 메시지 끝이 ". TICKET-123" 형태라면 스킵
+if echo "$COMMIT_MSG" | grep -qE "\. $JIRA_TICKET$"; then
+  exit 0
+fi
+# 티켓 번호가 포함돼 있는 경우에도 스킵
+if echo "$COMMIT_MSG" | grep -q "$JIRA_TICKET"; then
+  exit 0
+fi
+# 메시지 끝에 '. 티켓번호' 붙이기
+# 먼저 메시지가 온점으로 끝나는지 확인
+if [[ "$COMMIT_MSG" =~ \.$ ]]; then
+  # 온점이 있으면 그 뒤에 공백 + 티켓번호 추가
+  echo "$COMMIT_MSG $JIRA_TICKET" > "$COMMIT_MSG_FILE"
+else
+  # 온점이 없다면 온점 추가 후 공백 + 티켓번호 추가
+  echo "$COMMIT_MSG. $JIRA_TICKET" > "$COMMIT_MSG_FILE"
+fi

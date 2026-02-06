@@ -5,7 +5,7 @@
       "repo": "anthropics/claude-plugins-official"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-02-04T06:32:25.887Z"
+    "lastUpdated": "2026-02-05T05:24:47.160Z"
   },
   "corca-plugins": {
     "source": {
@@ -13,7 +13,7 @@
       "repo": "corca-ai/claude-plugins"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/corca-plugins",
-    "lastUpdated": "2026-02-04T23:37:10.733Z",
+    "lastUpdated": "2026-02-05T23:39:10.047Z",
     "autoUpdate": true
   },
   "claude-hud": {
@@ -22,7 +22,7 @@
       "repo": "jarrodwatts/claude-hud"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/claude-hud",
-    "lastUpdated": "2026-02-04T06:27:06.628Z",
+    "lastUpdated": "2026-02-05T10:48:40.944Z",
     "autoUpdate": true
   },
   "superpowers-marketplace": {
@@ -40,7 +40,7 @@
       "repo": "team-attention/plugins-for-claude-natives"
     },
     "installLocation": "/Users/admin/.claude/plugins/marketplaces/team-attention-plugins",
-    "lastUpdated": "2026-02-04T05:42:59.632Z",
+    "lastUpdated": "2026-02-05T23:40:15.579Z",
     "autoUpdate": true
   },
   "skill-up-marketplace": {

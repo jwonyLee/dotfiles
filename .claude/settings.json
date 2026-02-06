@@ -48,7 +48,6 @@
     "superpowers@superpowers-marketplace": true,
     "context7@claude-plugins-official": true,
     "session-wrap@team-attention-plugins": true,
-    "github@claude-plugins-official": true,
     "slack@claude-plugins-official": true,
     "skill-up@skill-up-marketplace": true,
     "superpowers@claude-plugins-official": true,
@@ -58,5 +57,8 @@
     "swiftui-expert@swiftui-expert-skill": true,
     "playground@claude-plugins-official": true
   },
-  "language": "Korean"
+  "language": "Korean",
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
 }

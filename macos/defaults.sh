@@ -12,4 +12,8 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 # ForkLift 기본 파일 뷰어
 defaults write -g NSFileViewer -string com.binarynights.ForkLift-3
 
+# iTerm2 설정을 dotfiles에서 로드
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "$HOME/dotfiles/terminal/iterm2"
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+
 echo "macOS defaults 설정 완료. 일부 설정은 재시작 후 적용됩니다."

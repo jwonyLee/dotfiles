@@ -34,5 +34,7 @@ ln -sf "$DOTFILES/xcode/FontAndColorThemes/"*.xccolortheme "$HOME/Library/Develo
 mkdir -p "$HOME/.claude"
 ln -sf "$DOTFILES/.claude/settings.json" "$HOME/.claude/settings.json"
 ln -sf "$DOTFILES/.claude/CLAUDE.md" "$HOME/.claude/CLAUDE.md"
+mkdir -p "$HOME/.claude/hooks"
+ln -sf "$DOTFILES/.claude/hooks/english-coach.sh" "$HOME/.claude/hooks/english-coach.sh"
 
 echo "심볼릭 링크 생성 완료"

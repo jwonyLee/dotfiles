@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
   "permissions": {
     "allow": [
       "Bash(ls:*)",
@@ -36,7 +39,7 @@
   },
   "statusLine": {
     "type": "command",
-    "command": "bash -c '\"/Users/admin/.bun/bin/bun\" \"$(ls -td ~/.claude/plugins/cache/claude-hud/claude-hud/*/ 2>/dev/null | head -1)src/index.ts\"'"
+    "command": "bash -c '\"/opt/homebrew/bin/node\" \"$(ls -td ~/.claude/plugins/cache/claude-hud/claude-hud/*/ 2>/dev/null | head -1)dist/index.js\"'"
   },
   "enabledPlugins": {
     "swift-lsp@claude-plugins-official": true,
@@ -49,8 +52,5 @@
     "example-skills@anthropic-agent-skills": true,
     "swiftui-expert@swiftui-expert-skill": true
   },
-  "language": "Korean",
-  "env": {
-    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
-  }
+  "language": "Korean"
 }

@@ -1,3 +1,4 @@
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/dotfiles/aliases.zsh
+export PATH="$HOME/.local/bin:$PATH"

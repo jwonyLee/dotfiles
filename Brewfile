@@ -1,6 +1,8 @@
 tap "steipete/tap"
 
 brew "fzf"
+brew "gh"
+brew "node"
 brew "mockolo"
 brew "xcsift"
 
@@ -13,4 +15,4 @@ cask "google-chrome"
 cask "iterm2"
 cask "obsidian"
 cask "visual-studio-code"
-cask "xcodes"
+cask "xcodes-app"

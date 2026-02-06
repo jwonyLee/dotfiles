@@ -19,7 +19,10 @@ cd ~/dotfiles
 │   ├── .gitconfig            # Git 사용자/훅/push 설정
 │   ├── .gitignore_global     # Global gitignore
 │   └── prepare-commit-msg    # Jira 티켓 자동 삽입 훅
-├── terminal/ghostty/config   # Ghostty 터미널 설정
+├── terminal/
+│   ├── ghostty/config        # Ghostty 터미널 설정
+│   └── iterm2/               # iTerm2 설정 (커스텀 폴더 로드)
+├── xcode/FontAndColorThemes/  # Xcode 커스텀 테마
 ├── macos/
 │   ├── DefaultkeyBinding.dict # ₩ → backtick 매핑
 │   └── defaults.sh           # macOS 시스템 설정 복원
@@ -57,6 +60,7 @@ cd ~/dotfiles
 | `git/prepare-commit-msg` | `~/.githooks/prepare-commit-msg` |
 | `terminal/ghostty/config` | `~/.config/ghostty/config` |
 | `macos/DefaultkeyBinding.dict` | `~/Library/KeyBindings/DefaultkeyBinding.dict` |
+| `xcode/FontAndColorThemes/*.xccolortheme` | `~/Library/Developer/Xcode/UserData/FontAndColorThemes/` |
 | `nvim/` | `~/.config/nvim` |
 | `.hammerspoon/` | `~/.hammerspoon` |
 | `.claude/settings.json` | `~/.claude/settings.json` |
@@ -66,12 +70,7 @@ cd ~/dotfiles
 
 ### Shell
 
-Zsh 플러그인(autosuggestions, syntax-highlighting)과 alias 설정.
-
-```bash
-# aliases.zsh를 .zshrc에서 source
-echo 'source ~/dotfiles/aliases.zsh' >> ~/.zshrc
-```
+Zsh 플러그인(autosuggestions, syntax-highlighting)과 alias 설정. `.zshrc`에서 `aliases.zsh`를 자동으로 source.
 
 ### Git
 
@@ -82,6 +81,10 @@ echo 'source ~/dotfiles/aliases.zsh' >> ~/.zshrc
 ### Ghostty
 
 JetBrainsMonoHangul 폰트, 12pt, working-directory 설정.
+
+### iTerm2
+
+`terminal/iterm2/`에 설정 저장. iTerm2의 "Load preferences from a custom folder" 기능을 사용하며, `defaults.sh`가 자동으로 경로를 설정.
 
 ### macOS
 

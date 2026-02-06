@@ -1,5 +1,6 @@
 tap "steipete/tap"
 
+brew "fzf"
 brew "mockolo"
 brew "xcsift"
 

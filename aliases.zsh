@@ -13,6 +13,17 @@ alias gw="git worktree"
 # Git Worktree Functions
 # ===================
 
+# worktree 목록을 "branch\tpath" 형태로 출력
+_gw_list() {
+    git worktree list --porcelain | awk '
+        /^worktree/ { path = $2 }
+        /^branch/ {
+            gsub(/^refs\/heads\//, "", $2)
+            print $2 "\t" path
+        }
+    '
+}
+
 # git worktree add
 gwa() {
     if [ -z "$1" ]; then
@@ -41,14 +52,7 @@ gwa() {
 
 # git worktree change (fzf)
 gwc() {
-    local query="$1"
-    local selected=$(git worktree list --porcelain | awk '
-        /^worktree/ { path = $2 }
-        /^branch/ {
-            gsub(/^refs\/heads\//, "", $2)
-            print $2 "\t" path
-        }
-    ' | fzf --height=40% --reverse --prompt="Select branch: " --query="$query" --with-nth=1 | cut -f2)
+    local selected=$(_gw_list | fzf --height=40% --reverse --prompt="Select branch: " --query="$1" --with-nth=1 | cut -f2)
 
     if [ -n "$selected" ]; then
         cd "$selected"
@@ -57,15 +61,7 @@ gwc() {
 
 # git worktree remove (fzf)
 gwr() {
-    local query="$1"
-
-    local selected=$(git worktree list --porcelain | awk '
-        /^worktree/ { path = $2 }
-        /^branch/ {
-            gsub(/^refs\/heads\//, "", $2)
-            print $2 "\t" path
-        }
-    ' | fzf --height=40% --reverse --prompt="Select worktree to remove: " --query="$query" --with-nth=1)
+    local selected=$(_gw_list | fzf --height=40% --reverse --prompt="Select worktree to remove: " --query="$1" --with-nth=1)
 
     if [ -n "$selected" ]; then
         local branch=$(echo "$selected" | cut -f1)

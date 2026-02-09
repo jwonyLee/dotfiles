@@ -50,7 +50,8 @@
     "claude-hud@claude-hud": true,
     "document-skills@anthropic-agent-skills": true,
     "example-skills@anthropic-agent-skills": true,
-    "swiftui-expert@swiftui-expert-skill": true
+    "swiftui-expert@swiftui-expert-skill": true,
+    "xcsift@xcsift": true
   },
   "language": "Korean"
 }

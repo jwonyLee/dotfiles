@@ -50,11 +50,10 @@
     "claude-hud@claude-hud": true,
     "context7@claude-plugins-official": true,
     "session-wrap@team-attention-plugins": true,
-    "superpowers@claude-plugins-official": true,
-    "document-skills@anthropic-agent-skills": true,
-    "example-skills@anthropic-agent-skills": true,
     "swiftui-expert@swiftui-expert-skill": true,
-    "xcsift@xcsift": true
+    "xcsift@xcsift": true,
+    "refactor@corca-plugins": true,
+    "compound-engineering@every-marketplace": true
   },
   "language": "Korean"
 }
